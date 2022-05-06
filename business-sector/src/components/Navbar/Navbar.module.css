@@ -1,0 +1,51 @@
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+    background: #474955;
+    -webkit-box-shadow: 0px 4px 27px rgba(230, 231, 234, 0.78);
+            box-shadow: 0px 4px 27px rgba(230, 231, 234, 0.78);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 137.69%;
+    color: #FFFFFF;
+    padding: 18px;
+  }
+  
+  .nav div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .span {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .idElem {
+    width: 20px;
+  }
+  
+  .rightOne {
+    margin-left: 250px;
+  }
+  
+  .rightTwo {
+    margin-left: 500px;
+  }
